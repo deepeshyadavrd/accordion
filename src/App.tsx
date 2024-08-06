@@ -1,6 +1,7 @@
+import Accordion from "./components/accordion"
 function App() {
   return (
-    <div>App</div>
+    <main><Accordion /></main>
   )
 }
 
