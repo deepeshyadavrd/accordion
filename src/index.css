@@ -10,3 +10,10 @@ body {
   display: grid;
   place-items: center;
 }
+
+.accordion_holder{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 20px;
+}
