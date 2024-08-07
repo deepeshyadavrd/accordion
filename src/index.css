@@ -17,3 +17,10 @@ body {
   gap: 15px;
   padding: 0 20px;
 }
+
+.accordionItem{
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  
+}
