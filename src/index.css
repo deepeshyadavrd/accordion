@@ -5,7 +5,7 @@
 
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background-color: #5d12d2;
+  background-color: #787771;
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -20,7 +20,29 @@ body {
 
 .accordionItem{
   max-width: 500px;
-  background-color: #fff;
+  background-color: #F5F1F2;
   padding: 20px;
-  
+}
+
+.accordionItem__flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.desc{
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s;
+}
+
+.show{
+  margin-top: 15px;
+  grid-template-rows: 1fr;
+}
+
+.hidden{
+  overflow: hidden;
 }
