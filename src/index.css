@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #787771;
@@ -10,20 +9,17 @@ body {
   display: grid;
   place-items: center;
 }
-
 .accordion_holder{
   display: flex;
   flex-direction: column;
   gap: 15px;
   padding: 0 20px;
 }
-
 .accordionItem{
   max-width: 500px;
   background-color: #F5F1F2;
   padding: 20px;
 }
-
 .accordionItem__flex{
   display: flex;
   justify-content: space-between;
@@ -31,7 +27,6 @@ body {
   font-size: 22px;
   font-weight: 500;
 }
-
 .desc{
   display: grid;
   grid-template-rows: 0fr;
